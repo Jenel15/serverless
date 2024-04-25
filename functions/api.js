@@ -7,9 +7,9 @@ const cors = require('cors');
 const app= express();
 
 const dbCloudUrl =
-'mongodb+srv://jenelricafrente:<password>@cluster0.6kvjvok.mongodb.net/';
+'mongodb+srv://Jen:0048728c0052fcf0@cluster0.ccomfh0.mongodb.net/?retryWrites=true&w=majority';
 
-const dbLocalUrl = 'mongodb://Jen/serverless-ai';
+const dbLocalUrl = 'mongodb://localhost:27017/express-mongo-api';
 
 app.use(cors());
 app.use(express.json());
